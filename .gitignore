@@ -1,0 +1,38 @@
+#### python ####
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Pyenv
+.python-version
+
+# pytest:
+.pytest_cache/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+
+#### jetbrains ####
+.idea/
+
+#### Node template ####
+node_modules/
+
+#####=== Custom ===#####
+# Directories:
+media/
+staticfiles/
+
+# File types:
+*.sqlite3
+*.db
+db.json
+
+# Configuration file with private data:
+*.env
+
+# Local settings files:
+*local.py
+
+
